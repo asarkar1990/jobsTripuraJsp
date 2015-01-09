@@ -1,0 +1,12 @@
+.jobdetails{
+    text-align: left;
+    float: left;
+}
+
+body{
+    counter-reset: Serial; 
+}
+.slno{
+    counter-increment: Serial;
+    content:  counter(Serial);
+}
